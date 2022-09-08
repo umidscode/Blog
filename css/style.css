@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* ----  Header styles ---- */
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    height: 70px;
+}
+
+.head-name {
+    font-size: 18px;
+    padding:  17px 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.head-word:hover{
+    background-color: #c0e4fc;
+    color: #0074d9;
+}
+
+
+
+.head-words {
+    padding: 24px 0;
+    font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.head-word {
+    color: black;
+    padding: 20px;
+}
+
+
+/* ---- Section styles ---- */
+
+.section-main {
+    text-align: center;
+    background-color: #F5F8FA;
+    border:1px solid rgba(0, 0, 0, 0.089);
+    height: 450px;
+}
+
+.section-items{
+    padding: 40px 0;
+}
+
+.sec-name {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 75px;
+    color: rgb(82, 78, 78);
+    cursor: pointer;
+}
+
+.sec-name:hover{
+    color: #0074d9;
+}
+
+.sec-words {
+    font-family:  Gabriola;
+    font-size: 45px;
+    color: rgb(158, 154, 154);
+}
+
+.astrum-link {
+    color: #0074d9;
+}
+
+img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid rgb(170, 167, 167);
+    background-color: white;
+    cursor: pointer;
+}
+
+/*---- Under section style ---- */
+.under-section{
+    height: 400px;
+    display: flex;
+    padding: 70px 0;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:1px solid rgba(0, 0, 0, 0.089);
+}
+
+.about-me {
+    font-size: 24px;
+    width: 510px;   
+    padding-right: 50px;
+}
+
+.contact {
+    font-size: 24px;
+    width: 200px;
+    
+}
+.contact a{
+    display: block;
+    padding-top: 35px;
+    color:#0074d9 
+}
+
+.about-words {
+    padding: 30px 0;
+    line-height: 40px;
+    color: rgb(78, 78, 78);
+}
+
+.about-words a {
+    color: #0074d9;
+}
+
+.footer {
+    height: 60px;
+    background-color: #F5F8FA;
+}
+
+.footer-word {
+    color: rgb(134, 133, 133);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 18px 0;
+
+}
